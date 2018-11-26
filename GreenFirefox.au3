@@ -101,9 +101,9 @@ IniWrite($inifile, "Settings", "ProductEsr", "firefox-esr-latest")
 IniWrite($inifile, "Settings", "ProductAurora", "firefox-aurora-latest-l10n")
 IniWrite($inifile, "Settings", "ProductNightly", "firefox-nightly-latest")
 IniWrite($inifile, "Settings", "ProductLang", "zh-CN")
-IniWrite($inifile, "Settings", "WikiWeb", "http://code.taobao.org/p/GreenFirefox/wiki/index/")
+IniWrite($inifile, "Settings", "WikiWeb", "https://github.com/charygao/GreenFirefox/wiki")
 IniWrite($inifile, "Settings", "UpdateTxtUrl", "https://github.com/charygao/GreenFirefox/blob/master/Update.txt")
-IniWrite($inifile, "Settings", "GreenFirefoxReleaseUrl", "https://github.com/charygao/GreenFirefox/blob/master/release/")
+IniWrite($inifile, "Settings", "GreenFirefoxReleaseUrl", "https://github.com/charygao/GreenFirefox/tree/master/release/")
 EndIf
 
 $CheckAppUpdate = IniRead($inifile, "Settings", "CheckAppUpdate", 1) * 1
@@ -132,7 +132,7 @@ $ProductEsr = IniRead($inifile, "Settings", "ProductEsr", "firefox-esr-latest")
 $ProductAurora = IniRead($inifile, "Settings", "ProductAurora", "firefox-aurora-latest-l10n")
 $ProductNightly = IniRead($inifile, "Settings", "ProductNightly", "firefox-nightly-latest")
 $ProductLang = IniRead($inifile, "Settings", "ProductLang", "zh-CN")
-$WikiWeb = IniRead($inifile, "Settings", "WikiWeb", "http://code.taobao.org/p/GreenFirefox/wiki/index/")
+$WikiWeb = IniRead($inifile, "Settings", "WikiWeb", "https://github.com/charygao/GreenFirefox/wiki")
 $UpdateTxtUrl=	IniRead($inifile, "Settings", "UpdateTxtUrl", "https://github.com/charygao/GreenFirefox/blob/master/Update.txt")
 $GreenFirefoxReleaseUrl =	IniRead($inifile, "Settings", "GreenFirefoxReleaseUrl", "https://github.com/charygao/GreenFirefox/blob/master/release/")
 If $AppVersion <> IniRead($inifile, "Settings", "AppVersion", "") Then
