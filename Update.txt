@@ -1,0 +1,6 @@
+latest=3.0.0
+url=https://github.com/charygao/GreenFirefox/blob/master/release/GreenFirefox_v3.0.0.zip
+update=修正无效的 GreenFirefox 下载链接。
+latest_x64=30.0.0
+url_x64=https://github.com/charygao/GreenFirefox/blob/master/release/GreenFirefox_v3.0.0_x64.zip
+update_x64=修正无效的 GreenFirefox 下载链接。
